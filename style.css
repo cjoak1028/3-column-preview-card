@@ -1,0 +1,26 @@
+:root {
+    --color-orange: hsl(31, 77%, 52%);
+    --color-cyan-dark: hsl(184, 100%, 22%);
+    --color-cyan-very-dark: hsl(179, 100%, 13%);
+
+    --color-white-transparent: hsla(0, 0%, 100%, 0.75);
+    --color-gray-very-light: hsl(0, 0%, 95%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-gray-very-light);
+}
+
+html {
+    font: 62.5%;
+    font-family: 'Lexend Deca', sans-serif;
+}
